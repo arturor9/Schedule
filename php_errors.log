@@ -1,0 +1,180 @@
+[09-Oct-2018 19:36:48 UTC] PHP Warning:  include(main/header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/events/new.php on line 6
+[09-Oct-2018 19:36:48 UTC] PHP Stack trace:
+[09-Oct-2018 19:36:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/events/new.php:0
+[09-Oct-2018 19:36:48 UTC] PHP Warning:  include(): Failed opening 'main/header.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/events/new.php on line 6
+[09-Oct-2018 19:36:48 UTC] PHP Stack trace:
+[09-Oct-2018 19:36:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/events/new.php:0
+[09-Oct-2018 19:36:48 UTC] PHP Warning:  include(main/navbar.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/events/new.php on line 11
+[09-Oct-2018 19:36:48 UTC] PHP Stack trace:
+[09-Oct-2018 19:36:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/events/new.php:0
+[09-Oct-2018 19:36:48 UTC] PHP Warning:  include(): Failed opening 'main/navbar.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/events/new.php on line 11
+[09-Oct-2018 19:36:48 UTC] PHP Stack trace:
+[09-Oct-2018 19:36:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/events/new.php:0
+[09-Oct-2018 19:36:48 UTC] PHP Warning:  require_once(db/connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/events/new.php on line 17
+[09-Oct-2018 19:36:48 UTC] PHP Stack trace:
+[09-Oct-2018 19:36:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/events/new.php:0
+[09-Oct-2018 19:36:48 UTC] PHP Fatal error:  require_once(): Failed opening required 'db/connect.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/events/new.php on line 17
+[09-Oct-2018 19:36:48 UTC] PHP Stack trace:
+[09-Oct-2018 19:36:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/events/new.php:0
+[09-Oct-2018 19:37:48 UTC] PHP Warning:  require_once(db/connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/events/new.php on line 17
+[09-Oct-2018 19:37:48 UTC] PHP Stack trace:
+[09-Oct-2018 19:37:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/events/new.php:0
+[09-Oct-2018 19:37:48 UTC] PHP Fatal error:  require_once(): Failed opening required 'db/connect.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/events/new.php on line 17
+[09-Oct-2018 19:37:48 UTC] PHP Stack trace:
+[09-Oct-2018 19:37:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/events/new.php:0
+[10-Oct-2018 01:35:59 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/events/create.php on line 12
+[10-Oct-2018 01:35:59 UTC] PHP Stack trace:
+[10-Oct-2018 01:35:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/events/create.php:0
+[10-Oct-2018 05:14:52 UTC] PHP Warning:  mysqli_stmt_close() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/events/create.php on line 52
+[10-Oct-2018 05:14:52 UTC] PHP Stack trace:
+[10-Oct-2018 05:14:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/events/create.php:0
+[10-Oct-2018 05:14:52 UTC] PHP   2. mysqli_stmt_close() /home/ubuntu/workspace/events/create.php:52
+[10-Oct-2018 05:21:04 UTC] PHP Warning:  mysqli_stmt_close() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/events/create.php on line 52
+[10-Oct-2018 05:21:04 UTC] PHP Stack trace:
+[10-Oct-2018 05:21:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/events/create.php:0
+[10-Oct-2018 05:21:04 UTC] PHP   2. mysqli_stmt_close() /home/ubuntu/workspace/events/create.php:52
+[10-Oct-2018 05:28:24 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/events/create.php on line 22
+[10-Oct-2018 05:28:24 UTC] PHP Stack trace:
+[10-Oct-2018 05:28:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/events/create.php:0
+[10-Oct-2018 05:29:12 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/events/create.php on line 22
+[10-Oct-2018 05:29:12 UTC] PHP Stack trace:
+[10-Oct-2018 05:29:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/events/create.php:0
+[10-Oct-2018 05:31:42 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/events/create.php on line 46
+[10-Oct-2018 05:31:42 UTC] PHP Stack trace:
+[10-Oct-2018 05:31:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/events/create.php:0
+[10-Oct-2018 05:34:03 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/events/create.php on line 46
+[10-Oct-2018 05:34:03 UTC] PHP Stack trace:
+[10-Oct-2018 05:34:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/events/create.php:0
+[12-Oct-2018 03:45:37 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/events/edit.php on line 99
+[12-Oct-2018 03:53:50 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/events/edit.php on line 78
+[12-Oct-2018 04:08:08 UTC] PHP Parse error:  syntax error, unexpected 'first_name' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/events/edit.php on line 54
+[12-Oct-2018 04:08:26 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/ubuntu/workspace/events/edit.php on line 54
+[12-Oct-2018 18:03:50 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/events/edit.php on line 40
+[12-Oct-2018 18:03:50 UTC] PHP Stack trace:
+[12-Oct-2018 18:03:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/events/edit.php:0
+[12-Oct-2018 18:04:18 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/events/edit.php on line 40
+[12-Oct-2018 18:04:18 UTC] PHP Stack trace:
+[12-Oct-2018 18:04:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/events/edit.php:0
+[12-Oct-2018 18:05:40 UTC] PHP Parse error:  syntax error, unexpected ''.$input_id.'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/events/edit.php on line 44
+[12-Oct-2018 18:45:53 UTC] PHP Parse error:  syntax error, unexpected 'Row' (T_STRING) in /home/ubuntu/workspace/events/update.php on line 44
+[12-Oct-2018 18:46:30 UTC] PHP Parse error:  syntax error, unexpected 'Row' (T_STRING) in /home/ubuntu/workspace/events/update.php on line 45
+[12-Oct-2018 18:46:37 UTC] PHP Parse error:  syntax error, unexpected 'Row' (T_STRING) in /home/ubuntu/workspace/events/update.php on line 45
+[12-Oct-2018 18:47:35 UTC] PHP Parse error:  syntax error, unexpected 'location' (T_STRING) in /home/ubuntu/workspace/events/update.php on line 45
+[12-Oct-2018 19:46:24 UTC] PHP Parse error:  syntax error, unexpected 'location' (T_STRING) in /home/ubuntu/workspace/events/update.php on line 45
+[12-Oct-2018 19:51:42 UTC] PHP Parse error:  syntax error, unexpected 'location' (T_STRING) in /home/ubuntu/workspace/events/update.php on line 45
+[12-Oct-2018 19:53:09 UTC] PHP Parse error:  syntax error, unexpected 'location' (T_STRING) in /home/ubuntu/workspace/events/update.php on line 49
+[13-Oct-2018 01:06:14 UTC] PHP Parse error:  syntax error, unexpected 'location' (T_STRING) in /home/ubuntu/workspace/events/update.php on line 49
+[13-Oct-2018 01:26:20 UTC] PHP Fatal error:  Using $this when not in object context in /home/ubuntu/workspace/events/update.php on line 28
+[13-Oct-2018 01:26:20 UTC] PHP Stack trace:
+[13-Oct-2018 01:26:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/events/update.php:0
+[13-Oct-2018 01:31:03 UTC] PHP Parse error:  syntax error, unexpected 'location' (T_STRING) in /home/ubuntu/workspace/events/update.php on line 49
+[14-Oct-2018 03:53:41 UTC] PHP Parse error:  syntax error, unexpected 'location' (T_STRING) in /home/ubuntu/workspace/events/update.php on line 49
+[14-Oct-2018 04:08:13 UTC] PHP Fatal error:  Using $this when not in object context in /home/ubuntu/workspace/events/update.php on line 4
+[14-Oct-2018 04:08:13 UTC] PHP Stack trace:
+[14-Oct-2018 04:08:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/events/update.php:0
+[14-Oct-2018 04:08:28 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/events/update.php on line 4
+[14-Oct-2018 04:08:28 UTC] PHP Stack trace:
+[14-Oct-2018 04:08:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/events/update.php:0
+[14-Oct-2018 04:09:13 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/events/update.php on line 19
+[14-Oct-2018 04:10:56 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/events/update.php on line 20
+[14-Oct-2018 04:12:20 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/events/update.php on line 23
+[14-Oct-2018 04:13:40 UTC] PHP Parse error:  syntax error, unexpected 'Row' (T_STRING) in /home/ubuntu/workspace/events/update.php on line 32
+[14-Oct-2018 04:15:49 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/events/update.php on line 33
+[15-Oct-2018 01:10:02 UTC] PHP Parse error:  syntax error, unexpected 'Row' (T_STRING) in /home/ubuntu/workspace/events/update.php on line 32
+[15-Oct-2018 01:11:10 UTC] PHP Parse error:  syntax error, unexpected 'Row' (T_STRING) in /home/ubuntu/workspace/events/update.php on line 32
+[15-Oct-2018 01:14:31 UTC] PHP Parse error:  syntax error, unexpected 'Row' (T_STRING) in /home/ubuntu/workspace/events/update.php on line 47
+[15-Oct-2018 01:14:35 UTC] PHP Parse error:  syntax error, unexpected 'Row' (T_STRING) in /home/ubuntu/workspace/events/update.php on line 47
+[15-Oct-2018 01:16:17 UTC] PHP Parse error:  syntax error, unexpected 'Row' (T_STRING) in /home/ubuntu/workspace/events/update.php on line 49
+[15-Oct-2018 01:16:21 UTC] PHP Parse error:  syntax error, unexpected 'Row' (T_STRING) in /home/ubuntu/workspace/events/update.php on line 49
+[15-Oct-2018 01:16:37 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/events/update.php on line 50
+[15-Oct-2018 01:22:56 UTC] PHP Parse error:  syntax error, unexpected 'Row' (T_STRING) in /home/ubuntu/workspace/events/update.php on line 50
+[15-Oct-2018 01:23:08 UTC] PHP Parse error:  syntax error, unexpected 'Row' (T_STRING) in /home/ubuntu/workspace/events/update.php on line 50
+[15-Oct-2018 01:23:11 UTC] PHP Parse error:  syntax error, unexpected 'Row' (T_STRING) in /home/ubuntu/workspace/events/update.php on line 50
+[15-Oct-2018 01:23:33 UTC] PHP Parse error:  syntax error, unexpected 'Row' (T_STRING) in /home/ubuntu/workspace/events/update.php on line 50
+[15-Oct-2018 01:23:55 UTC] PHP Parse error:  syntax error, unexpected 'Row' (T_STRING) in /home/ubuntu/workspace/events/update.php on line 49
+[15-Oct-2018 01:29:23 UTC] PHP Warning:  mysqli::prepare() expects exactly 1 parameter, 2 given in /home/ubuntu/workspace/events/update.php on line 49
+[15-Oct-2018 01:29:23 UTC] PHP Stack trace:
+[15-Oct-2018 01:29:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/events/update.php:0
+[15-Oct-2018 01:29:23 UTC] PHP   2. mysqli->prepare() /home/ubuntu/workspace/events/update.php:49
+[15-Oct-2018 01:30:12 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/events/update.php on line 51
+[15-Oct-2018 02:04:27 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/events/update.php on line 18
+[15-Oct-2018 02:08:16 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/events/update.php on line 21
+[15-Oct-2018 02:29:45 UTC] PHP Fatal error:  Call to undefined function alert() in /home/ubuntu/workspace/events/update.php on line 26
+[15-Oct-2018 02:29:45 UTC] PHP Stack trace:
+[15-Oct-2018 02:29:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/events/update.php:0
+[15-Oct-2018 02:30:32 UTC] PHP Fatal error:  Call to undefined function alert() in /home/ubuntu/workspace/events/update.php on line 7
+[15-Oct-2018 02:30:32 UTC] PHP Stack trace:
+[15-Oct-2018 02:30:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/events/update.php:0
+[15-Oct-2018 03:42:34 UTC] PHP Parse error:  syntax error, unexpected 'Hello' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/events/update.php on line 7
+[16-Nov-2018 16:30:29 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/events/edit.php on line 26
+[16-Nov-2018 16:30:29 UTC] PHP Stack trace:
+[16-Nov-2018 16:30:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/events/edit.php:0
+[16-Nov-2018 16:30:29 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/events/edit.php:26
+[16-Nov-2018 16:32:38 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/events/update.php on line 31
+[16-Nov-2018 16:32:38 UTC] PHP Stack trace:
+[16-Nov-2018 16:32:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/events/update.php:0
+[16-Nov-2018 16:34:28 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/events/update.php on line 23
+[16-Nov-2018 16:34:28 UTC] PHP Stack trace:
+[16-Nov-2018 16:34:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/events/update.php:0
+[16-Nov-2018 16:34:32 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/events/update.php on line 23
+[16-Nov-2018 16:34:32 UTC] PHP Stack trace:
+[16-Nov-2018 16:34:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/events/update.php:0
+[16-Nov-2018 16:43:55 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/ubuntu/workspace/events/update.php on line 32
+[16-Nov-2018 16:43:55 UTC] PHP Stack trace:
+[16-Nov-2018 16:43:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/events/update.php:0
+[16-Nov-2018 16:43:55 UTC] PHP   2. mysqli_stmt->bind_param() /home/ubuntu/workspace/events/update.php:32
+[16-Nov-2018 16:46:21 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/ubuntu/workspace/events/update.php on line 32
+[16-Nov-2018 16:46:21 UTC] PHP Stack trace:
+[16-Nov-2018 16:46:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/events/update.php:0
+[16-Nov-2018 16:46:21 UTC] PHP   2. mysqli_stmt->bind_param() /home/ubuntu/workspace/events/update.php:32
+[16-Nov-2018 16:46:33 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/ubuntu/workspace/events/update.php on line 32
+[16-Nov-2018 16:46:33 UTC] PHP Stack trace:
+[16-Nov-2018 16:46:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/events/update.php:0
+[16-Nov-2018 16:46:33 UTC] PHP   2. mysqli_stmt->bind_param() /home/ubuntu/workspace/events/update.php:32
+[16-Nov-2018 16:47:38 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/events/update.php on line 32
+[16-Nov-2018 16:47:38 UTC] PHP Stack trace:
+[16-Nov-2018 16:47:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/events/update.php:0
+[16-Nov-2018 16:47:50 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/events/update.php on line 32
+[16-Nov-2018 16:47:50 UTC] PHP Stack trace:
+[16-Nov-2018 16:47:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/events/update.php:0
+[16-Nov-2018 16:49:39 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/events/update.php on line 32
+[16-Nov-2018 16:49:39 UTC] PHP Stack trace:
+[16-Nov-2018 16:49:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/events/update.php:0
+[16-Nov-2018 16:50:28 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/events/update.php on line 32
+[16-Nov-2018 16:50:28 UTC] PHP Stack trace:
+[16-Nov-2018 16:50:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/events/update.php:0
+[16-Nov-2018 16:50:41 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/events/update.php on line 32
+[16-Nov-2018 16:50:41 UTC] PHP Stack trace:
+[16-Nov-2018 16:50:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/events/update.php:0
+[16-Nov-2018 17:05:38 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/events/update.php on line 54
+[16-Nov-2018 17:27:43 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/ubuntu/workspace/events/update.php on line 32
+[16-Nov-2018 17:27:43 UTC] PHP Stack trace:
+[16-Nov-2018 17:27:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/events/update.php:0
+[16-Nov-2018 17:27:43 UTC] PHP   2. mysqli_stmt->bind_param() /home/ubuntu/workspace/events/update.php:32
+[16-Nov-2018 17:33:11 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/events/update.php on line 24
+[16-Nov-2018 17:33:11 UTC] PHP Stack trace:
+[16-Nov-2018 17:33:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/events/update.php:0
+[16-Nov-2018 17:49:54 UTC] PHP Catchable fatal error:  Object of class mysqli_stmt could not be converted to string in /home/ubuntu/workspace/events/update.php on line 47
+[16-Nov-2018 17:49:54 UTC] PHP Stack trace:
+[16-Nov-2018 17:49:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/events/update.php:0
+[16-Nov-2018 17:52:08 UTC] PHP Catchable fatal error:  Object of class mysqli_stmt could not be converted to string in /home/ubuntu/workspace/events/update.php on line 48
+[16-Nov-2018 17:52:08 UTC] PHP Stack trace:
+[16-Nov-2018 17:52:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/events/update.php:0
+[16-Nov-2018 17:53:00 UTC] PHP Catchable fatal error:  Object of class mysqli could not be converted to string in /home/ubuntu/workspace/events/update.php on line 48
+[16-Nov-2018 17:53:00 UTC] PHP Stack trace:
+[16-Nov-2018 17:53:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/events/update.php:0
+[16-Nov-2018 17:53:07 UTC] PHP Catchable fatal error:  Object of class mysqli could not be converted to string in /home/ubuntu/workspace/events/update.php on line 48
+[16-Nov-2018 17:53:07 UTC] PHP Stack trace:
+[16-Nov-2018 17:53:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/events/update.php:0
+[16-Nov-2018 17:53:41 UTC] PHP Catchable fatal error:  Object of class mysqli could not be converted to string in /home/ubuntu/workspace/events/update.php on line 48
+[16-Nov-2018 17:53:41 UTC] PHP Stack trace:
+[16-Nov-2018 17:53:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/events/update.php:0
+[16-Nov-2018 18:01:09 UTC] PHP Catchable fatal error:  Object of class mysqli could not be converted to string in /home/ubuntu/workspace/events/update.php on line 48
+[16-Nov-2018 18:01:09 UTC] PHP Stack trace:
+[16-Nov-2018 18:01:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/events/update.php:0
+[16-Nov-2018 18:22:40 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/events/update.php on line 50
+[16-Nov-2018 18:22:40 UTC] PHP Stack trace:
+[16-Nov-2018 18:22:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/events/update.php:0
+[16-Nov-2018 18:23:18 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/events/update.php on line 65
+[16-Nov-2018 18:23:18 UTC] PHP Stack trace:
+[16-Nov-2018 18:23:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/events/update.php:0

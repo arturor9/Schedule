@@ -1,0 +1,2 @@
+INSERT INTO employee (emp_id, rfc,imss,first_name,middle_name,last_name,email,phone_number,mobile_number,emergency_phone_number,emergency_contact ) VALUES
+ ( 2, 'RFC1283123TK1', '038239383','Rafael','Fernando','Ortega Perez','git92e8@gmail.com',4882200,6141273827,6149999999,'Tia Meche');

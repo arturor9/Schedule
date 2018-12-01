@@ -1,0 +1,81 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+  font-size: 14px;
+}
+
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: none;
+ 
+}
+
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 4px 15px;
+    transition: 0.3s;
+    font-size: 15px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #eee;
+}
+.contentactive {
+    display: none;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.contentactive {
+    display: block;
+}
+
+
+.chckbx-btn-day, .label-btn-wd {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin:5px;
+  width: 35px;
+  height: 30px;
+}
+
+
+.chckbx-btn-day + .label-btn-wd {
+    background-color: #E8E8E8;
+}
+.chckbx-btn-day  {
+    display: none;
+}
+
+.chckbx-btn-day + .label-btn-wd:hover  {
+    background-color: #F8F8F8;
+
+}
+.chckbx-btn-day:checked + .label-btn-wd {
+    background-color: #17a2b8;
+    box-shadow: 0px 0px 6px #DCDCDC;
+}
+
