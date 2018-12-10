@@ -178,3 +178,164 @@
 [16-Nov-2018 18:23:18 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/events/update.php on line 65
 [16-Nov-2018 18:23:18 UTC] PHP Stack trace:
 [16-Nov-2018 18:23:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/events/update.php:0
+[10-Dec-2018 17:13:42 UTC] PHP Warning:  include(main/header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/employees/index.php on line 6
+[10-Dec-2018 17:13:42 UTC] PHP Stack trace:
+[10-Dec-2018 17:13:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/employees/index.php:0
+[10-Dec-2018 17:13:42 UTC] PHP Warning:  include(): Failed opening 'main/header.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/employees/index.php on line 6
+[10-Dec-2018 17:13:42 UTC] PHP Stack trace:
+[10-Dec-2018 17:13:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/employees/index.php:0
+[10-Dec-2018 17:13:42 UTC] PHP Warning:  include(main/navbar.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/employees/index.php on line 12
+[10-Dec-2018 17:13:42 UTC] PHP Stack trace:
+[10-Dec-2018 17:13:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/employees/index.php:0
+[10-Dec-2018 17:13:42 UTC] PHP Warning:  include(): Failed opening 'main/navbar.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/employees/index.php on line 12
+[10-Dec-2018 17:13:42 UTC] PHP Stack trace:
+[10-Dec-2018 17:13:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/employees/index.php:0
+[10-Dec-2018 17:13:42 UTC] PHP Warning:  require_once(db/connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/employees/index.php on line 17
+[10-Dec-2018 17:13:42 UTC] PHP Stack trace:
+[10-Dec-2018 17:13:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/employees/index.php:0
+[10-Dec-2018 17:13:42 UTC] PHP Fatal error:  require_once(): Failed opening required 'db/connect.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/employees/index.php on line 17
+[10-Dec-2018 17:13:42 UTC] PHP Stack trace:
+[10-Dec-2018 17:13:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/employees/index.php:0
+[10-Dec-2018 17:18:57 UTC] PHP Warning:  include(main/header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/employees/index.php on line 6
+[10-Dec-2018 17:18:57 UTC] PHP Stack trace:
+[10-Dec-2018 17:18:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/employees/index.php:0
+[10-Dec-2018 17:18:57 UTC] PHP Warning:  include(): Failed opening 'main/header.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/employees/index.php on line 6
+[10-Dec-2018 17:18:57 UTC] PHP Stack trace:
+[10-Dec-2018 17:18:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/employees/index.php:0
+[10-Dec-2018 17:18:57 UTC] PHP Warning:  include(main/navbar.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/employees/index.php on line 12
+[10-Dec-2018 17:18:57 UTC] PHP Stack trace:
+[10-Dec-2018 17:18:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/employees/index.php:0
+[10-Dec-2018 17:18:57 UTC] PHP Warning:  include(): Failed opening 'main/navbar.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/employees/index.php on line 12
+[10-Dec-2018 17:18:57 UTC] PHP Stack trace:
+[10-Dec-2018 17:18:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/employees/index.php:0
+[10-Dec-2018 17:18:57 UTC] PHP Warning:  require_once(db/connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/employees/index.php on line 17
+[10-Dec-2018 17:18:57 UTC] PHP Stack trace:
+[10-Dec-2018 17:18:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/employees/index.php:0
+[10-Dec-2018 17:18:57 UTC] PHP Fatal error:  require_once(): Failed opening required 'db/connect.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/employees/index.php on line 17
+[10-Dec-2018 17:18:57 UTC] PHP Stack trace:
+[10-Dec-2018 17:18:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/employees/index.php:0
+[10-Dec-2018 17:22:38 UTC] PHP Warning:  include(main/header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/employees/index.php on line 6
+[10-Dec-2018 17:22:38 UTC] PHP Stack trace:
+[10-Dec-2018 17:22:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/employees/index.php:0
+[10-Dec-2018 17:22:38 UTC] PHP Warning:  include(): Failed opening 'main/header.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/employees/index.php on line 6
+[10-Dec-2018 17:22:38 UTC] PHP Stack trace:
+[10-Dec-2018 17:22:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/employees/index.php:0
+[10-Dec-2018 17:22:38 UTC] PHP Warning:  include(main/navbar.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/employees/index.php on line 12
+[10-Dec-2018 17:22:38 UTC] PHP Stack trace:
+[10-Dec-2018 17:22:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/employees/index.php:0
+[10-Dec-2018 17:22:38 UTC] PHP Warning:  include(): Failed opening 'main/navbar.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/employees/index.php on line 12
+[10-Dec-2018 17:22:38 UTC] PHP Stack trace:
+[10-Dec-2018 17:22:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/employees/index.php:0
+[10-Dec-2018 17:22:38 UTC] PHP Warning:  require_once(db/connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/employees/index.php on line 17
+[10-Dec-2018 17:22:38 UTC] PHP Stack trace:
+[10-Dec-2018 17:22:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/employees/index.php:0
+[10-Dec-2018 17:22:38 UTC] PHP Fatal error:  require_once(): Failed opening required 'db/connect.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/employees/index.php on line 17
+[10-Dec-2018 17:22:38 UTC] PHP Stack trace:
+[10-Dec-2018 17:22:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/employees/index.php:0
+[10-Dec-2018 17:22:43 UTC] PHP Warning:  include(main/header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/employees/index.php on line 6
+[10-Dec-2018 17:22:43 UTC] PHP Stack trace:
+[10-Dec-2018 17:22:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/employees/index.php:0
+[10-Dec-2018 17:22:43 UTC] PHP Warning:  include(): Failed opening 'main/header.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/employees/index.php on line 6
+[10-Dec-2018 17:22:43 UTC] PHP Stack trace:
+[10-Dec-2018 17:22:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/employees/index.php:0
+[10-Dec-2018 17:22:43 UTC] PHP Warning:  include(main/navbar.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/employees/index.php on line 12
+[10-Dec-2018 17:22:43 UTC] PHP Stack trace:
+[10-Dec-2018 17:22:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/employees/index.php:0
+[10-Dec-2018 17:22:43 UTC] PHP Warning:  include(): Failed opening 'main/navbar.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/employees/index.php on line 12
+[10-Dec-2018 17:22:43 UTC] PHP Stack trace:
+[10-Dec-2018 17:22:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/employees/index.php:0
+[10-Dec-2018 17:22:43 UTC] PHP Warning:  require_once(db/connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/employees/index.php on line 17
+[10-Dec-2018 17:22:43 UTC] PHP Stack trace:
+[10-Dec-2018 17:22:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/employees/index.php:0
+[10-Dec-2018 17:22:43 UTC] PHP Fatal error:  require_once(): Failed opening required 'db/connect.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/employees/index.php on line 17
+[10-Dec-2018 17:22:43 UTC] PHP Stack trace:
+[10-Dec-2018 17:22:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/employees/index.php:0
+[10-Dec-2018 17:24:04 UTC] PHP Warning:  include(main/header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/employees/index.php on line 6
+[10-Dec-2018 17:24:04 UTC] PHP Stack trace:
+[10-Dec-2018 17:24:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/employees/index.php:0
+[10-Dec-2018 17:24:04 UTC] PHP Warning:  include(): Failed opening 'main/header.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/employees/index.php on line 6
+[10-Dec-2018 17:24:04 UTC] PHP Stack trace:
+[10-Dec-2018 17:24:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/employees/index.php:0
+[10-Dec-2018 17:24:04 UTC] PHP Warning:  include(main/navbar.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/employees/index.php on line 12
+[10-Dec-2018 17:24:04 UTC] PHP Stack trace:
+[10-Dec-2018 17:24:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/employees/index.php:0
+[10-Dec-2018 17:24:04 UTC] PHP Warning:  include(): Failed opening 'main/navbar.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/employees/index.php on line 12
+[10-Dec-2018 17:24:04 UTC] PHP Stack trace:
+[10-Dec-2018 17:24:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/employees/index.php:0
+[10-Dec-2018 17:24:04 UTC] PHP Warning:  require_once(db/connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/employees/index.php on line 17
+[10-Dec-2018 17:24:04 UTC] PHP Stack trace:
+[10-Dec-2018 17:24:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/employees/index.php:0
+[10-Dec-2018 17:24:04 UTC] PHP Fatal error:  require_once(): Failed opening required 'db/connect.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/employees/index.php on line 17
+[10-Dec-2018 17:24:04 UTC] PHP Stack trace:
+[10-Dec-2018 17:24:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/employees/index.php:0
+[10-Dec-2018 17:25:06 UTC] PHP Warning:  include(./main/header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/employees/index.php on line 6
+[10-Dec-2018 17:25:06 UTC] PHP Stack trace:
+[10-Dec-2018 17:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/employees/index.php:0
+[10-Dec-2018 17:25:06 UTC] PHP Warning:  include(): Failed opening './main/header.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/employees/index.php on line 6
+[10-Dec-2018 17:25:06 UTC] PHP Stack trace:
+[10-Dec-2018 17:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/employees/index.php:0
+[10-Dec-2018 17:25:06 UTC] PHP Warning:  include(./main/navbar.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/employees/index.php on line 12
+[10-Dec-2018 17:25:06 UTC] PHP Stack trace:
+[10-Dec-2018 17:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/employees/index.php:0
+[10-Dec-2018 17:25:06 UTC] PHP Warning:  include(): Failed opening './main/navbar.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/employees/index.php on line 12
+[10-Dec-2018 17:25:06 UTC] PHP Stack trace:
+[10-Dec-2018 17:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/employees/index.php:0
+[10-Dec-2018 17:25:06 UTC] PHP Warning:  require_once(db/connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/employees/index.php on line 17
+[10-Dec-2018 17:25:06 UTC] PHP Stack trace:
+[10-Dec-2018 17:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/employees/index.php:0
+[10-Dec-2018 17:25:06 UTC] PHP Fatal error:  require_once(): Failed opening required 'db/connect.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/employees/index.php on line 17
+[10-Dec-2018 17:25:06 UTC] PHP Stack trace:
+[10-Dec-2018 17:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/employees/index.php:0
+[10-Dec-2018 17:25:32 UTC] PHP Warning:  require_once(db/connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/employees/index.php on line 17
+[10-Dec-2018 17:25:32 UTC] PHP Stack trace:
+[10-Dec-2018 17:25:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/employees/index.php:0
+[10-Dec-2018 17:25:32 UTC] PHP Fatal error:  require_once(): Failed opening required 'db/connect.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/employees/index.php on line 17
+[10-Dec-2018 17:25:32 UTC] PHP Stack trace:
+[10-Dec-2018 17:25:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/employees/index.php:0
+[10-Dec-2018 17:25:38 UTC] PHP Warning:  require_once(db/connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/employees/index.php on line 17
+[10-Dec-2018 17:25:38 UTC] PHP Stack trace:
+[10-Dec-2018 17:25:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/employees/index.php:0
+[10-Dec-2018 17:25:38 UTC] PHP Fatal error:  require_once(): Failed opening required 'db/connect.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/employees/index.php on line 17
+[10-Dec-2018 17:25:38 UTC] PHP Stack trace:
+[10-Dec-2018 17:25:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/employees/index.php:0
+[10-Dec-2018 17:25:43 UTC] PHP Warning:  require_once(db/connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/employees/index.php on line 17
+[10-Dec-2018 17:25:43 UTC] PHP Stack trace:
+[10-Dec-2018 17:25:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/employees/index.php:0
+[10-Dec-2018 17:25:43 UTC] PHP Fatal error:  require_once(): Failed opening required 'db/connect.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/employees/index.php on line 17
+[10-Dec-2018 17:25:43 UTC] PHP Stack trace:
+[10-Dec-2018 17:25:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/employees/index.php:0
+[10-Dec-2018 17:25:54 UTC] PHP Warning:  require_once(db/connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/employees/index.php on line 17
+[10-Dec-2018 17:25:54 UTC] PHP Stack trace:
+[10-Dec-2018 17:25:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/employees/index.php:0
+[10-Dec-2018 17:25:54 UTC] PHP Fatal error:  require_once(): Failed opening required 'db/connect.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/employees/index.php on line 17
+[10-Dec-2018 17:25:54 UTC] PHP Stack trace:
+[10-Dec-2018 17:25:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/employees/index.php:0
+[10-Dec-2018 17:26:05 UTC] PHP Warning:  require_once(db/connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/employees/index.php on line 17
+[10-Dec-2018 17:26:05 UTC] PHP Stack trace:
+[10-Dec-2018 17:26:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/employees/index.php:0
+[10-Dec-2018 17:26:05 UTC] PHP Fatal error:  require_once(): Failed opening required 'db/connect.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/employees/index.php on line 17
+[10-Dec-2018 17:26:05 UTC] PHP Stack trace:
+[10-Dec-2018 17:26:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/employees/index.php:0
+[10-Dec-2018 17:30:16 UTC] PHP Warning:  mysqli_stmt_close() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/employees/delete.php on line 29
+[10-Dec-2018 17:30:16 UTC] PHP Stack trace:
+[10-Dec-2018 17:30:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/employees/delete.php:0
+[10-Dec-2018 17:30:16 UTC] PHP   2. mysqli_stmt_close() /home/ubuntu/workspace/employees/delete.php:29
+[10-Dec-2018 17:47:47 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/employees/update.php on line 29
+[10-Dec-2018 17:47:47 UTC] PHP Stack trace:
+[10-Dec-2018 17:47:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/employees/update.php:0
+[10-Dec-2018 18:02:58 UTC] PHP Warning:  mysqli_stmt_close() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/events/create.php on line 65
+[10-Dec-2018 18:02:58 UTC] PHP Stack trace:
+[10-Dec-2018 18:02:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/events/create.php:0
+[10-Dec-2018 18:02:58 UTC] PHP   2. mysqli_stmt_close() /home/ubuntu/workspace/events/create.php:65
+[10-Dec-2018 18:20:32 UTC] PHP Warning:  mysqli_stmt_close() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/events/update.php on line 66
+[10-Dec-2018 18:20:32 UTC] PHP Stack trace:
+[10-Dec-2018 18:20:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/events/update.php:0
+[10-Dec-2018 18:20:32 UTC] PHP   2. mysqli_stmt_close() /home/ubuntu/workspace/events/update.php:66
+[10-Dec-2018 18:23:11 UTC] PHP Warning:  mysqli_stmt_close() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/events/update.php on line 66
+[10-Dec-2018 18:23:11 UTC] PHP Stack trace:
+[10-Dec-2018 18:23:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/events/update.php:0
+[10-Dec-2018 18:23:11 UTC] PHP   2. mysqli_stmt_close() /home/ubuntu/workspace/events/update.php:66
+[10-Dec-2018 18:25:26 UTC] PHP Warning:  mysqli_stmt_close() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/events/update.php on line 66
+[10-Dec-2018 18:25:26 UTC] PHP Stack trace:
+[10-Dec-2018 18:25:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/events/update.php:0
+[10-Dec-2018 18:25:26 UTC] PHP   2. mysqli_stmt_close() /home/ubuntu/workspace/events/update.php:66

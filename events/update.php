@@ -1,55 +1,72 @@
 <?php
 require_once "../db/connect.php";
 
-$input_first_name = $input_middle_name = $input_last_name = $input_email = $input_rfc  = $input_emergency_contact = "";
-$input_imss = $input_mobile_number = $input_phone_number = $input_emergency_number = 0;
+// Define variables and initialize with empty values
 
-try {
-// Processing form data when form is submitted
+$std_id = $tch_id =  $tch_id= $date = $start_time= $end_time=0;
+
+// Processing form data when form is asubmitted
 if($_SERVER["REQUEST_METHOD"] == "POST"){
-    $input_first_name        = trim($_POST["form_first_name"]);
-    $input_middle_name       = trim($_POST["form_middle_name"]);
-    $input_last_name         = trim($_POST["form_last_name"]);
-    $input_email             = trim($_POST["form_email"]);
-    $input_rfc               = trim($_POST["form_rfc"]);
-    $input_imss              = trim($_POST["form_imss"]);
-    $input_mobile_number     = trim($_POST["form_mobile_number"]);
-    $input_phone_number      = trim($_POST["form_phone_number"]);
-    $input_emergency_number  = trim($_POST["form_emergency_number"]);
-    $input_emergency_contact = trim($_POST["form_emergency_contact"]);
-    $input_emp_id            = trim($_POST["form_emp_id"]);
-}   
-
-$stmt = $db->prepare("UPDATE employee SET first_name=?, middle_name=?, last_name=?, email=?, rfc=?, imss=?, phone_number=?, mobile_number=?, emergency_phone_number=?, emergency_contact=? WHERE emp_id=?");
+    // Validate alumni id
+    $input_id = trim($_POST["id"]);
+    $input_std_id = trim($_POST["std_id"]);
+    $input_tch_id = trim($_POST["tch_id"]);
+    $input_date   = trim($_POST["date"]);
+    $input_start_time = trim($_POST["start_time"]);
+    $input_end_time   = trim($_POST["end_time"]);
 
 
-/* Bind our params */
-/* BK: variables must be bound in the same order as the params in your SQL.
- * Some people prefer PDO because it supports named parameter. */
-$stmt->bind_param('sssssiiiisi', $input_first_name, $input_middle_name, $input_last_name, $input_email, $input_rfc, $input_imss, $input_phone_number, $input_mobile_number, $input_emergency_number, $input_emergency_contact, $input_emp_id);
-/* Set our params */
-/* BK: No need to use escaping when using parameters, in fact, you must not, 
- * because you'll get literal '\' characters in your content. */
+    // Validate tch id
+    function validateInt($num){
+        if(empty($num)){
+            return 'empty';
+        } elseif(!ctype_digit($num)){
+            return 'nodigit';
+        } else{
+          return 'valid';
+        }
+        
+    }
+    // Validate date
+    function validateDate($date, $format = 'Y-m-d'){
+        $d = DateTime::createFromFormat($format, $date);
+        // The Y ( 4 digits year ) returns TRUE for any integer with any number of digits so changing the comparison from == to === fixes the issue.
+        return $d && $d->format($format) === $date;
+    }
+        
+    // Check input errors before inserting in database
+    if( validateInt($input_std_id) && validateInt($input_tch_id) && validateDate($input_date) ){
+        // Prepare an insert statement
+        $sql = "UPDATE  events  SET alumni_id=?,  employee_id=?,  start_date=?, start_time=?, end_time=?    WHERE id = ? ";
+         
+        if($stmt = mysqli_prepare($db, $sql)){
+            // Bind variables to the prepared statement as parameters
+            mysqli_stmt_bind_param($stmt, "iisssi", $param_std_id, $param_tch_id, $param_date, $param_start_time,  $param_end_time,  $param_id  );
+            // Set parameters
+            $param_id = $input_id;
+            $param_std_id = $input_std_id;
+            $param_tch_id = $input_tch_id;
+            $param_date = date("Y-m-d",strtotime($input_date));   
+            $param_start_time = $input_start_time ;
+            $param_end_time =  $input_end_time  ;
+            // Attempt to execute the prepared statement
+            if(mysqli_stmt_execute($stmt)){
+                // Records created successfully. Redirect to landing page
+                header("location: /index.php");
+                exit();
+            } else{
+                echo "Something went wrong. Please try again later.";
+            }
+        }
+        
+        
 
-
-/* Execute the prepared Statement */
-$status = $stmt->execute();
-
-if($status === true){
-    header("location: /index.php");
-    exit();
-} else{
-    echo "Something went wrong. Please try again later.";
+         
+        // Close statement
+        mysqli_stmt_close($stmt);
+    }
+    
+    // Close connection
+    mysqli_close($db);
 }
-
-/* close statement and connection */
-$stmt->close();
-
-/* close connection */
-$db->close();
-    }
-catch(PDOException $e)
-    {
-    echo $sql . "<br>" . $e->getMessage();
-    }
 ?>
